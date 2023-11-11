@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="./favicon.ico" type="image/png">
+  <link rel="stylesheet" href="./style.css">
+  <title>JS | API | Google Maps</title>
+</head>
+
+<body>
+  <section class="map">
+    <header class="map__header">
+      <h1 class="map__title">Google Map API</h1>
+      <p class="map__description">A project I did for practice with the Google Maps API: adding a map to a web page and creating an information card for each marker.</p>
+      <p class="map__hint">If the map is not displayed, please use <strong>Ctrl+F5</strong></p>
+    </header>
+    <div id="map"></div>
+  </section>
+
+  <script async defer 
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCGentS8Tjm3lkEDbZQNEEDGbNkUxdzKL0&callback=initMap&v=1.0">
+  </script>
+  <script src="./app.js" async defer></script>
+</body>
+</html>
